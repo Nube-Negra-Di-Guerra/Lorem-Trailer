@@ -5,8 +5,9 @@ body{
     display: flex;
     justify-content: center;
     height: 100vh;
-    background-color: black;
-    color: white;
+    background: linear-gradient(to top left, darkgray, azure, darkgray, azure);
+    min-height: 100vh;
+    color: black;
 }
 
 .main-container{
@@ -50,19 +51,26 @@ body{
 }
 
 .btn{
-    border: none;
-    background-color: aqua;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
     padding: 10px 20px;
     cursor: pointer;
     margin-bottom: 20px;
 }
 
 .btn:hover{
-    background-color: orange;
+    background-color: darkslategrey;
+    color: white;
+    border-color: darkslategrey;
+    transition: 0.3s;
 }
 
 .close-icon{
     position: absolute;
+    color: azure;
     top: 30px;
     right: 30px;
     cursor: pointer;
