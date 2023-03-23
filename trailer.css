@@ -6,7 +6,6 @@ body{
     justify-content: center;
     height: 100vh;
     background: linear-gradient(to top left, darkgray, azure, darkgray, azure);
-    min-height: 100vh;
     color: black;
 }
 
@@ -76,7 +75,7 @@ body{
     cursor: pointer;
 }
 
-@media (min-width:300px ) {
+@media (min-width:300px ) and (max-width:500px) {
     .trailer-container video {
             max-width: 90%;
     }
