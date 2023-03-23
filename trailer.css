@@ -76,10 +76,13 @@ body{
     cursor: pointer;
 }
 
-@media (max-width: 991px) {
+@media (min-width:300px ) {
     .trailer-container video {
             max-width: 90%;
-        }
+    }
+    body{
+        padding: 10%;
+    }
 }
 
 .active.trailer-container{
